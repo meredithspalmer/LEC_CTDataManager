@@ -95,7 +95,7 @@ its core data-processing logic. From an R console, with this project folder
 as your working directory:
 
 ```r
-testthat::test_dir("test")
+testthat::test_dir("Test")
 ```
 
 ---
