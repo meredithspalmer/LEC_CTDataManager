@@ -1,0 +1,125 @@
+✔ | F W  S  OK | Context
+⠏ |          0 | camera-day-matrix                                                                            ✔ |         15 | camera-day-matrix
+⠏ |          0 | camera-operation-periods                                                                     ⠹ |         33 | camera-operation-periods                                                                     ✔ |         37 | camera-operation-periods
+⠏ |          0 | coordinate-validation                                                                        ✔ |         15 | coordinate-validation
+⠏ |          0 | datetime-parsing                                                                             ✔ |         25 | datetime-parsing
+⠏ |          0 | enriched-detections                                                                          ✔ |         13 | enriched-detections
+⠏ |          0 | independent-events                                                                           ✔ |         12 | independent-events
+⠏ |          0 | station-matching                                                                             ✔ |          5 | station-matching
+⠏ |          0 | testthat                                                                                     ✖ | 1 1      0 | testthat
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Warning ('testthat.R:17:1'): (code run outside of `test_that()`)
+path[1]="tests/testthat": No such file or directory
+Backtrace:
+     ▆
+  1. ├─testthat::test_dir("tests/testthat") at testthat.R:17:1
+  2. │ └─testthat:::find_test_start_first(path, load_package, package)
+  3. │   └─testthat:::find_description(path, package)
+  4. │     ├─base::tryCatch(pkgload::pkg_desc(path), error = function(e) NULL)
+  5. │     │ └─base (local) tryCatchList(expr, classes, parentenv, handlers)
+  6. │     │   └─base (local) tryCatchOne(expr, names, parentenv, handlers[[1L]])
+  7. │     │     └─base (local) doTryCatch(return(expr), name, parentenv, handler)
+  8. │     └─pkgload::pkg_desc(path)
+  9. │       ├─desc (local) desc_desc(pkg_path(path))
+ 10. │       │ └─description$new(cmd, file, text, package)
+ 11. │       │   └─desc (local) initialize(...)
+ 12. │       │     └─desc:::idesc_create(self, private, cmd, file, text, package)
+ 13. │       └─pkgload::pkg_path(path)
+ 14. │         └─base::tryCatch(...)
+ 15. │           └─base (local) tryCatchList(expr, classes, parentenv, handlers)
+ 16. │             └─base (local) tryCatchOne(expr, names, parentenv, handlers[[1L]])
+ 17. │               └─value[[3L]](cond)
+ 18. │                 ├─cli::cli_abort(msg, class = "pkgload_no_desc")
+ 19. │                 │ └─cli:::vcapply(message, format_inline, .envir = .envir)
+ 20. │                 │   └─base::vapply(X, FUN, FUN.VALUE = character(1), ..., USE.NAMES = USE.NAMES)
+ 21. │                 │     └─cli (local) FUN(X[[i]], ...)
+ 22. │                 │       ├─cli::cli_fmt(...)
+ 23. │                 │       │ └─cli:::cli__rec(expr)
+ 24. │                 │       └─cli (local) fun(..., .envir = .envir)
+ 25. │                 │         ├─cli:::cli__message(...)
+ 26. │                 │         │ └─"id" %in% names(args)
+ 27. │                 │         └─cli:::glue_cmd(..., .envir = .envir, .call = sys.call(), .trim = FALSE)
+ 28. │                 │           └─cli:::glue(...)
+ 29. │                 └─base::normalizePath(path)
+ 30. ├─cli (local) `<fn>`(".path {normalizePath(path)}")
+ 31. │ ├─.transformer(expr, .envir) %||% character()
+ 32. │ └─cli (local) .transformer(expr, .envir)
+ 33. │   └─cli:::glue(...)
+ 34. └─cli (local) `<fn>`("normalizePath(path)")
+ 35.   ├─.transformer(expr, .envir) %||% character()
+ 36.   └─cli (local) .transformer(expr, .envir)
+ 37.     ├─eval(expr, envir = envir) %??% ...
+ 38.     │ └─chain_error(expr, err, srcref = utils::getSrcref(sys.call()))
+ 39.     │   └─base::withCallingHandlers(...)
+ 40.     └─base::eval(expr, envir = envir)
+ 41.       └─base::eval(expr, envir = envir)
+
+Error ('testthat.R:17:1'): (code run outside of `test_that()`)
+Error in `testthat::test_dir("tests/testthat")`: No test files found.
+Backtrace:
+    ▆
+ 1. └─testthat::test_dir("tests/testthat") at testthat.R:17:1
+ 2.   └─cli::cli_abort("No test files found.")
+ 3.     └─rlang::abort(...)
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+══ Results ═══════════════════════════════════════════════════════════════════════════════════════════════════
+── Failed tests ──────────────────────────────────────────────────────────────────────────────────────────────
+Error ('testthat.R:17:1'): (code run outside of `test_that()`)
+Error in `testthat::test_dir("tests/testthat")`: No test files found.
+Backtrace:
+    ▆
+ 1. └─testthat::test_dir("tests/testthat") at testthat.R:17:1
+ 2.   └─cli::cli_abort("No test files found.")
+ 3.     └─rlang::abort(...)
+
+[ FAIL 1 | WARN 1 | SKIP 0 | PASS 122 ]
+✔ | F W  S  OK | Context
+⠏ |          0 | camera-day-matrix                                                                            ✔ |         15 | camera-day-matrix
+⠏ |          0 | camera-operation-periods                                                                     ⠋ |         31 | camera-operation-periods                                                                     ✔ |         37 | camera-operation-periods
+⠏ |          0 | coordinate-validation                                                                        ✔ |         15 | coordinate-validation
+⠏ |          0 | datetime-parsing                                                                             ✔ |         25 | datetime-parsing
+⠏ |          0 | enriched-detections                                                                          ✔ |         13 | enriched-detections
+⠏ |          0 | independent-events                                                                           ✔ |         12 | independent-events
+⠏ |          0 | station-matching                                                                             ✔ |          5 | station-matching
+
+══ Results ═══════════════════════════════════════════════════════════════════════════════════════════════════
+[ FAIL 0 | WARN 0 | SKIP 0 | PASS 122 ]
+Starting CamTrap Manager...
+App location: /Users/meredithspalmer/Desktop/Work/Consultancies/Leopard Ecology & Conservation/App/v9.4 
+Opening in your default browser.
+
+Installing CamTrap Manager dependencies...
+
+All packages already installed. You're good to go!
+
+--- Installing exiftool binary (required for EXIF/timestamp extraction) ---
+
+Automatic exiftool install failed with this error:
+HTTP error 404. 
+
+=====================================================================
+Automatic install didn't work. Please install ExifTool manually:
+=====================================================================
+
+1. Go to this page in your web browser: https://exiftool.org
+
+2. Download the version for your computer:
+     Mac:     click the link under 'MacOS Package' (a file ending in .pkg)
+     Windows: click the link under 'Windows Executable' (a .zip file)
+     Linux:   easiest option is to open your distro's software/app store
+              and search for 'exiftool' or 'libimage-exiftool-perl'
+
+3. Mac: double-click the downloaded .pkg file and follow the installer.
+   Windows: unzip the downloaded file, then rename the program inside
+            from 'exiftool(-k).exe' to 'exiftool.exe'.
+
+4. That's it — no need to re-run this script. The app will find ExifTool
+   automatically the next time it needs it. You can go ahead and launch
+   the app now (see LAUNCH_APP.R).
+
+To launch the app, open app.R and click 'Run App' in RStudio.
+Starting CamTrap Manager...
+App location: /Users/meredithspalmer/Desktop/Work/Consultancies/Leopard Ecology & Conservation/App/v9.4 
+Opening in your default browser.
+
