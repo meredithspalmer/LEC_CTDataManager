@@ -7,7 +7,7 @@ statistical analysis. Built for Leopard Ecology & Conservation.
 It runs entirely on your own computer. No server, no account, no internet
 connection required once installed, and no data ever leaves your machine.
 
-### SEE USER_GUIDE.md FOR A FULL WALKTHROUGH 
+**SEE USER_GUIDE.md FOR A FULL WALKTHROUGH**
 
 ---
 
