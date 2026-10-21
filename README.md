@@ -1,4 +1,4 @@
-# CT Data Manager
+# Camera Trap Data Manager
 
 A desktop R Shiny app for managing the full camera-trap survey workflow, from
 raw SD card images through quality control, species identification, and final
