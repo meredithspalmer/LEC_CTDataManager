@@ -1,4 +1,4 @@
-# CT Data Manager: Step-by-Step User Guide
+# Camera Trap Data Manager: Step-by-Step User Guide
 
 This is a complete walkthrough for anyone using CT Data Manager to process a
 camera-trap survey, from raw SD card images through final exports and
