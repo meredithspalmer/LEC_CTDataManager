@@ -118,9 +118,11 @@ both recognize the convention automatically once it's there.
 
 <img width="957" height="556" alt="Screenshot 2026-10-22 at 4 24 14 PM" src="https://github.com/user-attachments/assets/69286e7b-8f50-4635-b022-e64e37cd2a79" />
 
+4. Rerun the image audit after updating the flagged camera folders. 
+
 ### 3 · Backup
 
-📷 **SCREENSHOT: the Backup tab mid-run, showing the progress bar and verification results**
+<img width="1433" height="661" alt="Screenshot 2026-10-22 at 4 32 52 PM" src="https://github.com/user-attachments/assets/e99103b1-6e96-4c6a-ac87-46891e34554b" />
 
 Back up your images before doing anything else to them. Two options:
 
@@ -133,6 +135,11 @@ Back up your images before doing anything else to them. Two options:
 Either way, the app shows a progress bar and then a folder/file count
 comparison between source and backup, so you can confirm nothing was missed
 before moving on.
+
+Files will copy to the directory `/Research/LEC_Field_Research/CameraTraps/BackupCTData/NAME OF SURVEY`. 
+
+The Backup Verification panel can be used to ensure that all files successfully
+uploaded. 
 
 ### 4 · Rename images
 
