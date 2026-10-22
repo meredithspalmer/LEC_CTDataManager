@@ -151,9 +151,9 @@ so the app asks you to confirm before doing it.
 
 ### 5 · QA/QC
 
-This is the busiest step, with several sub-sections:
+<img width="1100" height="503" alt="5  QA:QC" src="https://github.com/user-attachments/assets/26df119c-02f1-421f-96fe-cbd1648bd8ee" />
 
-<img width="1000" height="458" alt="5  QA:QC pt 1" src="https://github.com/user-attachments/assets/6b766e39-6e9c-4752-8aec-a331c0ce90f6" />
+This is the busiest step, with several sub-sections:
 
 1. **EXIF extraction**: pulls the actual timestamp off every image's
    metadata. This is the foundation the rest of QA/QC runs on.
@@ -176,8 +176,6 @@ This is the busiest step, with several sub-sections:
 7. **Coordinate map**: plots every camera's location, so you can spot an
    obviously wrong coordinate (a camera in the ocean, or far from the rest of
    the survey) at a glance.
-
-<img width="1000" height="458" alt="5  QA:QC pt 2" src="https://github.com/user-attachments/assets/0f3ad5b0-4215-4828-adff-dcc2afc84066" />
 
 ---
 
