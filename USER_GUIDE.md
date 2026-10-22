@@ -176,6 +176,49 @@ This is the busiest step, with several sub-sections:
 7. **Coordinate map**: plots every camera's location, so you can spot an
    obviously wrong coordinate (a camera in the ocean, or far from the rest of
    the survey) at a glance.
+8. **Export corrected data**: downloads one CSV with a row per photo, showing
+   its original and corrected timestamp side by side (nothing is ever overwritten),
+   plus each camera's Use/Do-not-use decision and note from the step above.
+
+### How this connects to your TrapTagger upload
+
+This is worth understanding clearly, since it isn't obvious from the app
+alone: **a timestamp correction made in this app never changes the actual
+image files on disk.** Only the app's own internal record of that photo
+changes (and, from there, this exported CSV). When you upload the original
+image files to TrapTagger, TrapTagger reads each photo's own, unmodified
+EXIF timestamp directly, the same one it always had, correction or not.
+
+In practice, this means:
+
+- **If a camera had a clock error, TrapTagger's own dates for that
+  camera's photos will still reflect the original, wrong timestamp**, not
+  whatever correction you applied here. TrapTagger has no way to know a
+  correction happened in this app at all.
+- Treat the exported corrected CSV as **your survey's own permanent
+  record of the true timestamps**, kept alongside your data, separate from
+  whatever date TrapTagger itself reports for those same photos. This is
+  exactly why the export keeps both columns side by side rather than
+  replacing one with the other: the app's own record and TrapTagger's
+  record will genuinely disagree for any corrected camera, and this file
+  is what lets you reconcile the two later if needed.
+- **A camera marked "Do not use"** is a signal worth acting on before you
+  spend time uploading its images to TrapTagger at all, since its
+  timestamps can't be trusted for anything that depends on *when* a photo
+  was taken (activity patterns, effort calculations, and similar).
+- You don't need to do anything special to protect later steps from this
+  mismatch: when you eventually use **Match to local images** (on
+  Processing, to link TrapTagger's species results back to your local
+  files), that matching deliberately uses each photo's original timestamp,
+  the same one TrapTagger saw, specifically so a correction made here
+  doesn't cause a mismatch there.
+
+Because of all this, it's worth finishing QA/QC, including timestamp
+corrections and Use/Do-not-use decisions, before uploading images to
+TrapTagger, rather than after. Nothing breaks if you do it the other way
+around, but you'll have already made every judgment call you can from the
+data itself, before committing time to having TrapTagger classify photos
+whose timestamps (or usability) are already in question.
 
 ---
 
@@ -195,6 +238,12 @@ This is the busiest step, with several sub-sections:
    station against your deployment sheet's expected window, which is a good
    way to catch a station mismatch before it causes confusing results
    downstream.
+
+**If you applied any timestamp corrections during QA/QC**, see "How this
+connects to your TrapTagger upload" at the end of that section before
+uploading here. In short: TrapTagger reads each photo's original,
+unmodified timestamp directly, not any correction made in this app, so a
+corrected camera's dates will still look uncorrected on TrapTagger's side.
 
 If you're returning to this page after working elsewhere in the app, you'll
 need to upload the TrapTagger CSV again here. It isn't carried over
