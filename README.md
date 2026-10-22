@@ -13,8 +13,8 @@ connection required once installed, and no data ever leaves your machine.
 
 ## What it does
 
-CT Data Manager covers the whole camera-trap survey pipeline, organized into
-four stages:
+The Camera Trap Data Manager covers the whole camera-trap survey pipeline, 
+organized into four stages:
 
 **Ingest & QA/QC**
 - Reads your deployment/retrieval sheet (.csv/.xlsx) and validates it
