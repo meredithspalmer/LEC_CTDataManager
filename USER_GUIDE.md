@@ -251,11 +251,12 @@ automatically between pages within the same session.
 
 ### 2 · Focal species export
 
-📷 **SCREENSHOT: the Focal species export tab with a species selected and the matched-image table shown**
+<img width="1436" height="674" alt="7  Focal Species" src="https://github.com/user-attachments/assets/b516579e-2747-4c4c-846b-b26059a8bbdf" />
 
 Pick the species you want a subset of (typically for individual ID work),
 and the app matches each TrapTagger record to its local image file by
-station and EXIF timestamp, then exports that matched set for the next step.
+station and EXIF timestamp, then exports that matched set for the next step
+(i.e., upload to ArgusWild or other individual ID program).
 
 ### 3 · Import ArgusWild
 
@@ -269,8 +270,6 @@ individuals are identifiable by spot patterns).
 ## Stage 3: Visualize & Export
 
 ### Load Data
-
-📷 **SCREENSHOT: the Load Data tab showing all data sources loaded (green status indicators)**
 
 Each visualization and export needs specific data loaded first, which you
 do here: your deployment sheet, search effort / gap data, TrapTagger
