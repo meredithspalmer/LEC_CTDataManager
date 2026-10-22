@@ -104,7 +104,7 @@ both recognize the convention automatically once it's there.
 
 ### 2 · Image audit
 
-📷 **SCREENSHOT: the Image audit tab after running an audit, showing the summary and the per-camera results table**
+<img width="1444" height="504" alt="Screenshot 2026-10-22 at 4 23 56 PM" src="https://github.com/user-attachments/assets/535fbda2-6d0b-4aa1-88ba-e03d868b636a" />
 
 1. Point **Select image folder** at your top-level survey folder, the one
    containing the images you copied off your SD cards.
@@ -113,7 +113,10 @@ both recognize the convention automatically once it's there.
    folders, unexpected folder names.
 3. For any folder that's legitimately empty (camera failed, stolen, etc.),
    record a reason, so that's preserved for anyone reviewing the data later
-   rather than just looking like an unexplained gap.
+   rather than just looking like an unexplained gap. This will be saved in
+   the folder as a text file for later reference. 
+
+<img width="957" height="556" alt="Screenshot 2026-10-22 at 4 24 14 PM" src="https://github.com/user-attachments/assets/69286e7b-8f50-4635-b022-e64e37cd2a79" />
 
 ### 3 · Backup
 
