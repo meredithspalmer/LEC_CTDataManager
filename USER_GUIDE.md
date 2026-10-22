@@ -153,9 +153,8 @@ so the app asks you to confirm before doing it.
 
 This is the busiest step, with several sub-sections:
 
-<img width="800" height="366" alt="Screen Recording 2026-10-22 at 4 38 33 PM" src="https://github.com/user-attachments/assets/75e30fb5-6b84-44ff-8e07-4bdf4e22fc4c" />
-
-📷 **SCREENSHOT: the full QA/QC tab scrolled to show the sequence of cards (timestamp check → paired station check → camera health flags → timestamp correction → coordinate map)**
+<img width="1000" height="458" alt="5  QA:QC pt 1" src="https://github.com/user-attachments/assets/6b766e39-6e9c-4752-8aec-a331c0ce90f6" />
+<img width="1000" height="458" alt="5  QA:QC pt 2" src="https://github.com/user-attachments/assets/0f3ad5b0-4215-4828-adff-dcc2afc84066" />
 
 1. **EXIF extraction**: pulls the actual timestamp off every image's
    metadata. This is the foundation the rest of QA/QC runs on.
