@@ -226,7 +226,7 @@ whose timestamps (or usability) are already in question.
 
 ### 1 · Import TrapTagger
 
-📷 **SCREENSHOT: the Import TrapTagger tab after a successful upload, showing the gap-detection and cross-check sections**
+<img width="1100" height="503" alt="6  TrapTagger" src="https://github.com/user-attachments/assets/52571e00-01ed-4e09-a616-3a4c5eb6c116" />
 
 1. Upload the CSV exported from TrapTagger after species classification is
    done.
