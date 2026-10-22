@@ -1,4 +1,4 @@
-<img width="1436" height="657" alt="4  Image Rename" src="https://github.com/user-attachments/assets/0603d647-30e1-4ba4-88e9-9af534afb0b5" /># Camera Trap Data Manager: Step-by-Step User Guide
+# Camera Trap Data Manager: Step-by-Step User Guide
 
 This is a complete walkthrough for anyone using Camera Trap Data Manager to process a
 camera-trap survey, from raw SD card images through final exports and
