@@ -1,4 +1,4 @@
-# Camera Trap Data Manager: Step-by-Step User Guide
+<img width="1436" height="657" alt="4  Image Rename" src="https://github.com/user-attachments/assets/0603d647-30e1-4ba4-88e9-9af534afb0b5" /># Camera Trap Data Manager: Step-by-Step User Guide
 
 This is a complete walkthrough for anyone using Camera Trap Data Manager to process a
 camera-trap survey, from raw SD card images through final exports and
@@ -136,14 +136,12 @@ Either way, the app shows a progress bar and then a folder/file count
 comparison between source and backup, so you can confirm nothing was missed
 before moving on.
 
-Files will copy to the directory `/Research/LEC_Field_Research/CameraTraps/BackupCTData/NAME OF SURVEY`. 
-
-The Backup Verification panel can be used to ensure that all files successfully
-uploaded. 
+For the Swiss Server, files will copy to the directory 
+`/Research/LEC_Field_Research/CameraTraps/BackupCTData/NAME OF SURVEY`. 
 
 ### 4 · Rename images
 
-📷 **SCREENSHOT: the Rename tab, showing the rename preview table before confirming**
+<img width="1436" height="657" alt="4  Image Rename" src="https://github.com/user-attachments/assets/c24c342a-9f65-4b03-a735-7bbf37fe7368" />
 
 This step consolidates images into a single, consistent naming convention:
 `SurveyName_Block_Site_Camera_imgNNNN.ext`. It reuses the folder you picked
@@ -154,6 +152,8 @@ so the app asks you to confirm before doing it.
 ### 5 · QA/QC
 
 This is the busiest step, with several sub-sections:
+
+<img width="800" height="366" alt="Screen Recording 2026-10-22 at 4 38 33 PM" src="https://github.com/user-attachments/assets/75e30fb5-6b84-44ff-8e07-4bdf4e22fc4c" />
 
 📷 **SCREENSHOT: the full QA/QC tab scrolled to show the sequence of cards (timestamp check → paired station check → camera health flags → timestamp correction → coordinate map)**
 
