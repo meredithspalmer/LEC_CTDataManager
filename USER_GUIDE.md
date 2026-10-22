@@ -1,15 +1,9 @@
 # Camera Trap Data Manager: Step-by-Step User Guide
 
-This is a complete walkthrough for anyone using CT Data Manager to process a
+This is a complete walkthrough for anyone using Camera Trap Data Manager to process a
 camera-trap survey, from raw SD card images through final exports and
 analysis. It assumes the app is already installed and running. If it isn't
 yet, see `README.md` first.
-
-**A note on the screenshots in this guide:** they're marked as placeholders
-below (📷), with a specific description of what to capture at each one. Fill
-them in by running the app and taking a screenshot at that exact point. This
-keeps the guide accurate to whatever a real session actually looks like,
-rather than a static image that drifts out of date as the app changes.
 
 ---
 
@@ -54,7 +48,7 @@ guide risk-free.
 
 ## The app's layout
 
-📷 **SCREENSHOT: the app's top navigation bar, showing all five tabs**
+<img width="821" height="207" alt="Screenshot 2026-10-21 at 6 03 26 PM" src="https://github.com/user-attachments/assets/a87c952c-1455-4640-a4a7-58c5d39f96a1" />
 
 Along the top of the app are five tabs, used roughly left to right as a
 survey moves through its lifecycle:
