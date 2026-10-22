@@ -72,7 +72,7 @@ top of that page. Work through them left to right within a tab.
 
 ### 1 · Survey setup
 
-📷 **SCREENSHOT: the Survey setup tab, with Survey name and Deployment phase filled in and a deployment sheet uploaded, showing the folder structure preview on the right**
+<img width="1268" height="579" alt="Screenshot 2026-10-21 at 6 07 43 PM" src="https://github.com/user-attachments/assets/f4914c55-a444-4960-9b0a-1d4da6e2636e" />
 
 This is where every session starts.
 
