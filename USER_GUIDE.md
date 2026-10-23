@@ -300,7 +300,7 @@ required data is loaded on the Load Data tab:
 
 ### Effort
 
-📷 **SCREENSHOT: the Effort tab showing the camera operation timeline (Gantt-style chart) and the camera loss map**
+<img width="975" height="539" alt="9  Effort" src="https://github.com/user-attachments/assets/7724e31f-7e26-4789-87a2-65932bc5814f" />
 
 Shows when each camera was actually operating (a Gantt-style timeline),
 where cameras were lost or had downtime (an interactive map), and a
