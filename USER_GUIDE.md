@@ -332,8 +332,8 @@ competing species, avoid each other in time.
 
 ### Diversity
 
-📷 **SCREENSHOT: the Diversity tab showing the summary statistics and the species accumulation curve**
-
+<img width="1214" height="686" alt="12  Diversity" src="https://github.com/user-attachments/assets/4bc950ff-e00a-45ed-93b6-36cb3ff0df5d" />
+ 
 Community-level summaries across your whole survey: observed richness,
 Shannon and Simpson diversity indices, and Chao/Jackknife estimators of true
 richness (including species never actually detected). The accumulation
