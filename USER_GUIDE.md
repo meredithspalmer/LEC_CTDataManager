@@ -280,7 +280,7 @@ not sure what it depends on.
 
 ### Exports
 
-📷 **SCREENSHOT: the Exports tab showing the grid of download cards**
+<img width="1015" height="635" alt="8  Export" src="https://github.com/user-attachments/assets/3fbfad96-5060-4bbc-ae9a-d34c8c64bfa1" />
 
 Ten ready-to-use CSV exports live here, each a single click once its
 required data is loaded on the Load Data tab:
