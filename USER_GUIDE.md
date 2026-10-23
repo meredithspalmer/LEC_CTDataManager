@@ -309,7 +309,7 @@ your effort calculations.
 
 ### Species
 
-📷 **SCREENSHOT: the Species tab with a species selected, showing captures-through-time, captures-through-space, and RAI-vs-covariate plots**
+<img width="1442" height="663" alt="10  Species" src="https://github.com/user-attachments/assets/4e2d273a-5f18-4d50-8c2d-6ca068115b23" />
 
 Pick a species to see captures through time, captures through space (a map),
 and relative abundance index (RAI) plotted against an environmental
