@@ -364,7 +364,7 @@ chosen species:
 
 ## Saving and restoring your progress
 
-📷 **SCREENSHOT: the session save confirmation / the "Load session" dialog**
+<img width="955" height="414" alt="14  Save" src="https://github.com/user-attachments/assets/a469f29e-8297-43a6-abac-c74d96208054" />
 
 At any point, use **Save session** (in the footer bar, visible on every tab)
 to download a single file capturing your entire session: every upload,
