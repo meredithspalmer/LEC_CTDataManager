@@ -342,7 +342,7 @@ whether the survey has already captured most of what's there.
 
 ### Occupancy
 
-📷 **SCREENSHOT: the Occupancy tab after fitting a model, showing the coefficient tables, goodness-of-fit results, and the predicted-occupancy map**
+<img width="1250" height="553" alt="13  Occupancy" src="https://github.com/user-attachments/assets/9b6c9d32-2319-4769-9b0f-5a4b23110fce" />
 
 Fits a single-season occupancy model (via the `unmarked` R package) for a
 chosen species:
