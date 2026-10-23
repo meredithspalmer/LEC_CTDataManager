@@ -322,7 +322,7 @@ deployment sheet and GIS layers provide).
 
 ### Activity
 
-📷 **SCREENSHOT: the Activity tab with two species selected, showing the overlaid activity-pattern plot and the overlap coefficient table below it**
+<img width="1431" height="626" alt="11  Activity" src="https://github.com/user-attachments/assets/be95e57f-145b-48e1-b79e-006b05d13353" />
 
 Compares when two species (or two groups split by a covariate) are active
 during the day, and computes an overlap coefficient (Δ, from 0 = no overlap
